@@ -17,14 +17,24 @@ public class ObstacleSpawner : MonoBehaviour
   private float speed;
 
   private float spawnTimer;
+  private bool isGameOver = false;
 
   private void Start()
   {
     spawnTimer = spawnInterval;
+
+    Character.OnGameOver += HandleGameOver;
+  }
+
+  private void OnDestroy()
+  {
+    Character.OnGameOver -= HandleGameOver;
   }
 
   private void Update()
   {
+    if (isGameOver) { return; }
+
     spawnTimer -= Time.deltaTime;
 
     if (spawnTimer > 0.0f) { return; }
@@ -39,5 +49,10 @@ public class ObstacleSpawner : MonoBehaviour
     GameObject obstacle = Instantiate(obstaclePrefabTop, spawnLocationTop.transform.position, spawnLocationTop.transform.rotation);
 
     obstacle.GetComponent<Rigidbody2D>().AddForce(Vector2.left * speed * Time.fixedDeltaTime);
+  }
+
+  private void HandleGameOver()
+  {
+    isGameOver = true;
   }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Character : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class Character : MonoBehaviour
   private float jumpHeight;
 
   private bool isDodging = false;
+
+  public static event Action OnGameOver;
 
   private void Update()
   {
@@ -46,7 +49,8 @@ public class Character : MonoBehaviour
   {
     if (collision.gameObject.tag.Equals("Obstacle"))
     {
-      Debug.Log("Game Over!");
+      Destroy(collision.gameObject);
+      OnGameOver?.Invoke();
     }
     else if (collision.gameObject.tag.Equals("Floor"))
     {
