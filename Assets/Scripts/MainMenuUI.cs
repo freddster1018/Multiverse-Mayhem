@@ -42,9 +42,9 @@ public class MainMenuUI : MonoBehaviour
 
   private void SetHighScoreTexts()
   {
-    hsTexts[0].text = $"1. {PlayerPrefs.GetFloat("hs1")}";
-    hsTexts[1].text = $"2. {PlayerPrefs.GetFloat("hs2")}";
-    hsTexts[2].text = $"3. {PlayerPrefs.GetFloat("hs3")}";
+    hsTexts[0].text = $"1. {PlayerPrefs.GetFloat("hs1").ToString("F2")}";
+    hsTexts[1].text = $"2. {PlayerPrefs.GetFloat("hs2").ToString("F2")}";
+    hsTexts[2].text = $"3. {PlayerPrefs.GetFloat("hs3").ToString("F2")}";
   }
 
   public void ClearHighScores()

@@ -33,5 +33,16 @@ public class ScoreUI : MonoBehaviour
   private void HandleGameOver()
   {
     isGameOver = true;
+
+    float hs1 = PlayerPrefs.GetFloat("hs1");
+    float hs2 = PlayerPrefs.GetFloat("hs2");
+    float hs3 = PlayerPrefs.GetFloat("hs3");
+
+    List<float> sort = new List<float>(new float[] { score, hs1, hs2, hs3 });
+    sort.Sort();
+
+    PlayerPrefs.SetFloat("hs1", sort[3]);
+    PlayerPrefs.SetFloat("hs2", sort[2]);
+    PlayerPrefs.SetFloat("hs3", sort[1]);
   }
 }
