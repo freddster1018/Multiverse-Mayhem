@@ -37,4 +37,12 @@ public class Character : MonoBehaviour
 
     isDodging = false;
   }
+
+  private void OnTriggerEnter2D(Collider2D collision)
+  {
+    if (collision.gameObject.tag.Equals("Obstacle"))
+    {
+      Debug.Log("Game Over!");
+    }
+  }
 }
