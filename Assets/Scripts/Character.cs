@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
+  [SerializeField]
+  private Rigidbody2D rb = null;
+
+  [SerializeField]
+  private float jumpHeight;
+
   private bool isDodging = false;
 
   private void Update()
@@ -24,9 +30,7 @@ public class Character : MonoBehaviour
   {
     isDodging = true;
 
-    Debug.Log("Jumping");
-
-    isDodging = false;
+    rb.AddForce(Vector2.up * jumpHeight * Time.fixedDeltaTime);
   }
 
   private void Slide()
@@ -38,11 +42,15 @@ public class Character : MonoBehaviour
     isDodging = false;
   }
 
-  private void OnTriggerEnter2D(Collider2D collision)
+  private void OnCollisionEnter2D(Collision2D collision)
   {
     if (collision.gameObject.tag.Equals("Obstacle"))
     {
       Debug.Log("Game Over!");
+    }
+    else if (collision.gameObject.tag.Equals("Floor"))
+    {
+      isDodging = false;
     }
   }
 }
