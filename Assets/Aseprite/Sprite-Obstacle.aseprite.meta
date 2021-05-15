@@ -36,7 +36,7 @@ ScriptedImporter:
       componentType: 0
       overrideDirection: 0
       direction: 0
-      loopTime: 0
+      loopTime: 1
       useCustomCurve: 0
       customCurve:
         serializedVersion: 2
