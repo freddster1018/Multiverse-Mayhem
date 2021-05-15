@@ -11,6 +11,9 @@ public class ObstacleSpawner : MonoBehaviour
   private GameObject spawnLocationTop = null;
 
   [SerializeField]
+  private GameObject spawnLocationBottom = null;
+
+  [SerializeField]
   private float spawnInterval;
 
   [SerializeField]
@@ -46,7 +49,11 @@ public class ObstacleSpawner : MonoBehaviour
 
   private void Spawn()
   {
-    GameObject obstacle = Instantiate(obstaclePrefabTop, spawnLocationTop.transform.position, spawnLocationTop.transform.rotation);
+    float random = Random.Range(0, 2);
+
+    GameObject spawnLocation = random < 0.5f ? spawnLocationTop : spawnLocationBottom;
+
+    GameObject obstacle = Instantiate(obstaclePrefabTop, spawnLocation.transform.position, spawnLocation.transform.rotation);
 
     obstacle.GetComponent<Rigidbody2D>().AddForce(Vector2.left * speed * Time.fixedDeltaTime);
   }

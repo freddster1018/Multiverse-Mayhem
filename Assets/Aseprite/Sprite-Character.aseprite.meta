@@ -72,6 +72,34 @@ ScriptedImporter:
         preInfinity: 2
         postInfinity: 2
         rotationOrder: 4
+  - tagName: Landing
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: Sliding
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
   sheetData:
     frames:
     - filename: Sprite-Character_Standing_frame1
@@ -261,9 +289,26 @@ ScriptedImporter:
         w: 32
         h: 32
       duration: 100
-    - filename: Sprite-Character_Jumping_frame3
+    - filename: Sprite-Character_Landing_frame1
       frame:
         x: 352
+        y: 0
+        w: 32
+        h: 32
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 32
+        h: 32
+      sourceSize:
+        w: 32
+        h: 32
+      duration: 100
+    - filename: Sprite-Character_Sliding_frame1
+      frame:
+        x: 384
         y: 0
         w: 32
         h: 32
@@ -283,7 +328,7 @@ ScriptedImporter:
       image: Sprite-Character_sheet.png
       format: RGBA8888
       size:
-        w: 384
+        w: 416
         h: 32
       scale: 1
       frameTags:
@@ -297,8 +342,16 @@ ScriptedImporter:
         direction: forward
       - name: Jumping
         from: 9
+        to: 10
+        direction: forward
+      - name: Landing
+        from: 11
         to: 11
         direction: forward
+      - name: Sliding
+        from: 12
+        to: 12
+        direction: forward
       slices: []
-    pathToSheetData: Temp/UnityTempFile-cd360988bc08ffc438cda8bfcfe4724d/asetempexports/Sprite-Character_data.json
+    pathToSheetData: Temp/UnityTempFile-4ecf3cca0307da7489ab2873d61c0ebe/asetempexports/Sprite-Character_data.json
     aseFileName: Assets/Aseprite/Sprite-Character.aseprite
