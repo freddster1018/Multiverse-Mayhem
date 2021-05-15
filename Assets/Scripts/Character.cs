@@ -28,7 +28,7 @@ public class Character : MonoBehaviour
     }
     else if (Input.GetKeyDown(KeyCode.DownArrow))
     {
-      Slide();
+      StartCoroutine(Slide());
     }
   }
 
@@ -41,11 +41,15 @@ public class Character : MonoBehaviour
     animator.SetTrigger("Jump");
   }
 
-  private void Slide()
+  private IEnumerator Slide()
   {
     isDodging = true;
 
-    Debug.Log("Sliding");
+    animator.SetTrigger("Slide");
+
+    yield return new WaitForSeconds(1);
+
+    animator.SetTrigger("Run");
 
     isDodging = false;
   }
