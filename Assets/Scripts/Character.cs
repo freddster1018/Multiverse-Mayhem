@@ -9,6 +9,9 @@ public class Character : MonoBehaviour
   private Rigidbody2D rb = null;
 
   [SerializeField]
+  private Animator animator = null;
+
+  [SerializeField]
   private float jumpHeight;
 
   private bool isDodging = false;
@@ -34,6 +37,8 @@ public class Character : MonoBehaviour
     isDodging = true;
 
     rb.AddForce(Vector2.up * jumpHeight * Time.fixedDeltaTime);
+
+    animator.SetTrigger("Jump");
   }
 
   private void Slide()
@@ -55,6 +60,8 @@ public class Character : MonoBehaviour
     else if (collision.gameObject.tag.Equals("Floor"))
     {
       isDodging = false;
+
+      animator.SetTrigger("Run");
     }
   }
 }
