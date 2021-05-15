@@ -12,9 +12,16 @@ public class Character : MonoBehaviour
   private Animator animator = null;
 
   [SerializeField]
+  private new BoxCollider2D collider = null;
+
+  [SerializeField]
   private float jumpHeight;
 
+  [SerializeField]
+  private float slideTime;
+
   private bool isDodging = false;
+  private bool isSliding = false;
 
   public static event Action OnGameOver;
 
@@ -44,14 +51,22 @@ public class Character : MonoBehaviour
   private IEnumerator Slide()
   {
     isDodging = true;
+    isSliding = true;
 
     animator.SetTrigger("Slide");
 
-    yield return new WaitForSeconds(1);
+    collider.size = new Vector2(0.2252842f, 0.2245745f);
+    collider.offset = new Vector2(-0.03009415f, -0.04797687f);
+
+    yield return new WaitForSeconds(slideTime);
 
     animator.SetTrigger("Run");
 
+    collider.size = new Vector2(0.1415217f, 0.3016891f);
+    collider.offset = new Vector2(-0.009306952f, -0.01074912f);
+
     isDodging = false;
+    isSliding = false;
   }
 
   private void OnCollisionEnter2D(Collision2D collision)
@@ -61,7 +76,7 @@ public class Character : MonoBehaviour
       Destroy(collision.gameObject);
       OnGameOver?.Invoke();
     }
-    else if (collision.gameObject.tag.Equals("Floor"))
+    else if (collision.gameObject.tag.Equals("Floor") && !isSliding)
     {
       isDodging = false;
 
