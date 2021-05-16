@@ -27,11 +27,13 @@ public class ObstacleSpawner : MonoBehaviour
     spawnTimer = spawnInterval;
 
     Character.OnGameOver += HandleGameOver;
+    MultiverseController.OnTravel += HandleTravel;
   }
 
   private void OnDestroy()
   {
     Character.OnGameOver -= HandleGameOver;
+    MultiverseController.OnTravel += HandleTravel;
   }
 
   private void Update()
@@ -61,5 +63,12 @@ public class ObstacleSpawner : MonoBehaviour
   private void HandleGameOver()
   {
     isGameOver = true;
+  }
+
+  private void HandleTravel()
+  {
+    spawnInterval -= 0.2f;
+
+    spawnInterval = Mathf.Clamp(spawnInterval, 2.0f, Mathf.Infinity);
   }
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class MultiverseController : MonoBehaviour
 {
@@ -23,6 +24,8 @@ public class MultiverseController : MonoBehaviour
   private bool isGameOver = false;
   private float timer;
   private int currentIndex = 0;
+
+  public static event Action OnTravel;
 
   private void Start()
   {
@@ -56,6 +59,8 @@ public class MultiverseController : MonoBehaviour
 
   private void Travel()
   {
+    OnTravel?.Invoke();
+
     explosionSFX.Play();
 
     explosionAnimator.SetTrigger("Explode");
@@ -65,7 +70,7 @@ public class MultiverseController : MonoBehaviour
 
     while (!foundBg)
     {
-      index = Random.Range(0, bgSprites.Count);
+      index = UnityEngine.Random.Range(0, bgSprites.Count);
       foundBg = index != currentIndex;
     }
 

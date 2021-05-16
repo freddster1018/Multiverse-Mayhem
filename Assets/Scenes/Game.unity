@@ -2094,7 +2094,7 @@ MonoBehaviour:
   bgSprites:
   - {fileID: -7466297807804127433, guid: 06d8359c0ab93ac4499712b91f29f68a, type: 3}
   - {fileID: -2577814496877903236, guid: da0f7043dea22994ebc78a76f3c80f4f, type: 3}
-  travelInterval: 3
+  travelInterval: 10
   explosionSFX: {fileID: 799261455}
 --- !u!4 &1568282452
 Transform:
@@ -2156,7 +2156,7 @@ MonoBehaviour:
   obstaclePrefabTop: {fileID: 3896681841107802380, guid: f09f0a34657f02c4f9394abdd487300c, type: 3}
   spawnLocationTop: {fileID: 871742029}
   spawnLocationBottom: {fileID: 459465424}
-  spawnInterval: 1
+  spawnInterval: 4
   speed: 2.5
 --- !u!1 &1701661400
 GameObject:
