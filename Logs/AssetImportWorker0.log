@@ -811,3 +811,15 @@ Received Import Request.
 Start importing Assets/Scripts/ObstacleSpawner.cs using Guid(488ff9f73de8f3147b52d4d75c2f1ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9df85a87ae86a23ec00cccb2d48329') in 0.007265 seconds
   Import took 0.010680 seconds .
 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 54.1 MB.
+System memory in use after: 54.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2400.
+Total: 3.821700 ms (FindLiveObjects: 0.233800 ms CreateObjectMapping: 0.607900 ms MarkObjects: 2.826600 ms  DeleteObjects: 0.152200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
