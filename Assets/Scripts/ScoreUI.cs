@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
 public class ScoreUI : MonoBehaviour
 {
   [SerializeField]
-  private TMP_Text scoreText = null;
+  private Text scoreText = null;
 
   private float score = 0.0f;
   private bool isGameOver = false;

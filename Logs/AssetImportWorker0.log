@@ -209,3 +209,90 @@ System memory in use after: 89.8 MB.
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2346.
 Total: 2.354500 ms (FindLiveObjects: 0.213700 ms CreateObjectMapping: 0.122000 ms MarkObjects: 1.913400 ms  DeleteObjects: 0.104400 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000983 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.822 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2350.
+Total: 2.444900 ms (FindLiveObjects: 0.256800 ms CreateObjectMapping: 0.303500 ms MarkObjects: 1.776500 ms  DeleteObjects: 0.107500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1313.502409 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(4cac54a6d981e02448b54745ec0e085a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(4cac54a6d981e02448b54745ec0e085a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb06fbc41fe65ba285a2b4a9821e8c7e') in 0.016216 seconds
+  Import took 0.020586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.275136 seconds.
+  path: Assets/Fonts/VCR_OSD_MONO_1.001.ttf
+  artifactKey: Guid(18cd0277f3d978441915de9c0fef42bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/VCR_OSD_MONO_1.001.ttf using Guid(18cd0277f3d978441915de9c0fef42bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5dea0f25b5bd8da823a5468974e17d') in 0.075481 seconds
+  Import took 0.078695 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000987 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.864 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2359.
+Total: 2.600000 ms (FindLiveObjects: 0.238900 ms CreateObjectMapping: 0.147800 ms MarkObjects: 2.095100 ms  DeleteObjects: 0.117300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000923 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.844 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2363.
+Total: 2.307300 ms (FindLiveObjects: 0.220800 ms CreateObjectMapping: 0.117400 ms MarkObjects: 1.863100 ms  DeleteObjects: 0.105100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 572.329699 seconds.
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(206d93be6096b2c438f694bd9651f394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(206d93be6096b2c438f694bd9651f394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d9b93effbf67338e6e2efba07a4469') in 0.019350 seconds
+  Import took 0.022669 seconds .
+
