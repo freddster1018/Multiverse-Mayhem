@@ -1474,7 +1474,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionAnimator: {fileID: 799261452}
   background: {fileID: 2132694610}
-  travelInterval: 1
+  bgSprites:
+  - {fileID: -7466297807804127433, guid: 06d8359c0ab93ac4499712b91f29f68a, type: 3}
+  - {fileID: -2577814496877903236, guid: da0f7043dea22994ebc78a76f3c80f4f, type: 3}
+  travelInterval: 3
 --- !u!4 &1568282452
 Transform:
   m_ObjectHideFlags: 0

@@ -12,10 +12,14 @@ public class MultiverseController : MonoBehaviour
   private Image background = null;
 
   [SerializeField]
+  private List<Sprite> bgSprites = new List<Sprite>();
+
+  [SerializeField]
   private float travelInterval;
 
   private bool isGameOver = false;
   private float timer;
+  private int currentIndex = 0;
 
   private void Start()
   {
@@ -39,11 +43,28 @@ public class MultiverseController : MonoBehaviour
 
     timer = travelInterval;
 
-    explosionAnimator.SetTrigger("Explode");
+    Travel();
   }
 
   private void HandleGameOver()
   {
     isGameOver = true;
+  }
+
+  private void Travel()
+  {
+    explosionAnimator.SetTrigger("Explode");
+
+    bool foundBg = false;
+    int index = 0;
+
+    while (!foundBg)
+    {
+      index = Random.Range(0, bgSprites.Count);
+      foundBg = index != currentIndex;
+    }
+
+    currentIndex = index;
+    background.sprite = bgSprites[index];
   }
 }
