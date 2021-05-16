@@ -17,6 +17,9 @@ public class MultiverseController : MonoBehaviour
   [SerializeField]
   private float travelInterval;
 
+  [SerializeField]
+  private AudioSource explosionSFX = null;
+
   private bool isGameOver = false;
   private float timer;
   private int currentIndex = 0;
@@ -53,6 +56,8 @@ public class MultiverseController : MonoBehaviour
 
   private void Travel()
   {
+    explosionSFX.Play();
+
     explosionAnimator.SetTrigger("Explode");
 
     bool foundBg = false;

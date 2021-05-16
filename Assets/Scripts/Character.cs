@@ -20,14 +20,43 @@ public class Character : MonoBehaviour
   [SerializeField]
   private float slideTime;
 
+  [SerializeField]
+  private AudioSource jumpSFX = null;
+
+  [SerializeField]
+  private AudioSource slideSFX = null;
+
+  [SerializeField]
+  private AudioSource hitSFX = null;
+
+  [SerializeField]
+  private AudioSource runSFX = null;
+
+  [SerializeField]
+  private float runSFXInterval;
+
   private bool isDodging = false;
   private bool isSliding = false;
 
+  private float runSFXTimer;
+
   public static event Action OnGameOver;
+
+  private void Start()
+  {
+    runSFXTimer = runSFXInterval;
+  }
 
   private void Update()
   {
     if (isDodging) { return; }
+
+    runSFXTimer -= Time.deltaTime;
+    if (runSFXTimer <= 0.0f)
+    {
+      runSFXTimer = runSFXInterval;
+      runSFX.Play();
+    }
 
     if (Input.GetKeyDown(KeyCode.UpArrow))
     {
@@ -41,6 +70,8 @@ public class Character : MonoBehaviour
 
   private void Jump()
   {
+    jumpSFX.Play();
+
     isDodging = true;
 
     rb.AddForce(Vector2.up * jumpHeight * Time.fixedDeltaTime);
@@ -50,6 +81,8 @@ public class Character : MonoBehaviour
 
   private IEnumerator Slide()
   {
+    slideSFX.Play();
+
     isDodging = true;
     isSliding = true;
 
@@ -73,12 +106,17 @@ public class Character : MonoBehaviour
   {
     if (collision.gameObject.tag.Equals("Obstacle"))
     {
+      isDodging = true;
+
+      hitSFX.Play();
+
       Destroy(collision.gameObject);
       OnGameOver?.Invoke();
       animator.SetTrigger("Die");
     }
     else if (collision.gameObject.tag.Equals("Floor") && !isSliding)
     {
+
       isDodging = false;
 
       animator.SetTrigger("Run");

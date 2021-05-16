@@ -15,8 +15,14 @@ public class MainMenuUI : MonoBehaviour
   [SerializeField]
   private CanvasGroup hsCanvasGroup = null;
 
+  // Music by sawsquarenoise
+  [SerializeField]
+  private GameObject musicPlayer = null;
+
   public void StartGame()
   {
+    DontDestroyOnLoad(musicPlayer);
+
     SceneManager.LoadScene("Game");
   }
 
