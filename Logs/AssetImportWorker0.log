@@ -422,3 +422,310 @@ Received Import Request.
 Start importing Assets/Prefabs/Obstacle.prefab using Guid(f09f0a34657f02c4f9394abdd487300c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29a5a6d1f5cb7fa137b048cadea19be') in 0.071430 seconds
   Import took 0.075035 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001015 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.892 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1824 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 2.226800 ms (FindLiveObjects: 0.199800 ms CreateObjectMapping: 0.115600 ms MarkObjects: 1.802600 ms  DeleteObjects: 0.108000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.119221 seconds.
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(206d93be6096b2c438f694bd9651f394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(206d93be6096b2c438f694bd9651f394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1bdace3ab88cd46aad3c4ded5370a0') in 0.018623 seconds
+  Import took 0.022024 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001009 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.919 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1824 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 89.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2359.
+Total: 2.633100 ms (FindLiveObjects: 0.276500 ms CreateObjectMapping: 0.263900 ms MarkObjects: 1.980800 ms  DeleteObjects: 0.110900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001136 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.902 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1824 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2363.
+Total: 2.417100 ms (FindLiveObjects: 0.252600 ms CreateObjectMapping: 0.134600 ms MarkObjects: 1.906200 ms  DeleteObjects: 0.121900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1481.902540 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b2f741a2e0d9b36c381c07044980dc') in 0.022978 seconds
+  Import took 0.027237 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001134 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.891 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1824 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2367.
+Total: 2.796400 ms (FindLiveObjects: 0.202500 ms CreateObjectMapping: 0.113000 ms MarkObjects: 2.359100 ms  DeleteObjects: 0.120700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.742475 seconds.
+  path: Assets/Sprites/SPrite-Explosion/SPrite-Explosion_sheet.png
+  artifactKey: Guid(cb98f51a5b2287a4997d4802a676290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SPrite-Explosion/SPrite-Explosion_sheet.png using Guid(cb98f51a5b2287a4997d4802a676290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2f96a3c48d43e810833209617e4d31') in 0.128286 seconds
+  Import took 0.132202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Sprites/Sprite-Logo/Sprite-Logo_sheet.png
+  artifactKey: Guid(fd98c2e65b91d5e41a9ef9b8fe74f524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite-Logo/Sprite-Logo_sheet.png using Guid(fd98c2e65b91d5e41a9ef9b8fe74f524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9359f20e750d270235b9a4dbe737a1a1') in 0.032521 seconds
+  Import took 0.036154 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001002 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.871 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1824 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2378.
+Total: 2.224500 ms (FindLiveObjects: 0.203900 ms CreateObjectMapping: 0.118700 ms MarkObjects: 1.795800 ms  DeleteObjects: 0.105400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 653.971545 seconds.
+  path: Assets/Sprites/youtube.jpg
+  artifactKey: Guid(556ae336e86896e4e96c0a6932c65630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/youtube.jpg using Guid(556ae336e86896e4e96c0a6932c65630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492464a961d1ff96372a04c6e04d631c') in 0.068397 seconds
+  Import took 0.075468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.519574 seconds.
+  path: Assets/Sprites/youtube.png
+  artifactKey: Guid(7d8130575e9b259499880a01f813472d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/youtube.png using Guid(7d8130575e9b259499880a01f813472d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1c5551b972bee4cd6e4d05bca07a01') in 0.023070 seconds
+  Import took 0.027233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 322.494680 seconds.
+  path: Assets/Aseprite/Sprite-GitHub.aseprite
+  artifactKey: Guid(e4bf5f0e9e44a15469c48a72f9bf42da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aseprite/Sprite-GitHub.aseprite using Guid(e4bf5f0e9e44a15469c48a72f9bf42da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f20e37b5994ad8cc2aebf45f47b8b7') in 0.015465 seconds
+  Import took 0.021274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.135191 seconds.
+  path: Assets/Aseprite/Sprite-GitHub.aseprite
+  artifactKey: Guid(e4bf5f0e9e44a15469c48a72f9bf42da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aseprite/Sprite-GitHub.aseprite using Guid(e4bf5f0e9e44a15469c48a72f9bf42da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2169871493ff8c0e69351a3b305c3ebc') in 0.007879 seconds
+  Import took 0.011119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.200366 seconds.
+  path: Assets/Aseprite/Sprite-GitHub.aseprite
+  artifactKey: Guid(e4bf5f0e9e44a15469c48a72f9bf42da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aseprite/Sprite-GitHub.aseprite using Guid(e4bf5f0e9e44a15469c48a72f9bf42da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e3da0b34f124618cd42b98e12194e3') in 0.034681 seconds
+  Import took 0.038127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000742 seconds.
+  path: Assets/Aseprite/Sprite-GitHub.aseprite
+  artifactKey: Guid(e4bf5f0e9e44a15469c48a72f9bf42da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aseprite/Sprite-GitHub.aseprite using Guid(e4bf5f0e9e44a15469c48a72f9bf42da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e3da0b34f124618cd42b98e12194e3') in 0.013949 seconds
+  Import took 0.017896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.813365 seconds.
+  path: Assets/Aseprite/Sprite-YouTube.aseprite
+  artifactKey: Guid(8a4dfb50d03afae42b946ac6ab474d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aseprite/Sprite-YouTube.aseprite using Guid(8a4dfb50d03afae42b946ac6ab474d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db684fd2a74a99f5fb6610c91c2a33f') in 0.018703 seconds
+  Import took 0.021952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Aseprite/Sprite-YouTube.aseprite
+  artifactKey: Guid(8a4dfb50d03afae42b946ac6ab474d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aseprite/Sprite-YouTube.aseprite using Guid(8a4dfb50d03afae42b946ac6ab474d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db684fd2a74a99f5fb6610c91c2a33f') in 0.008356 seconds
+  Import took 0.011780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.680680 seconds.
+  path: Assets/Aseprite/Sprite-YouTube.aseprite
+  artifactKey: Guid(8a4dfb50d03afae42b946ac6ab474d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aseprite/Sprite-YouTube.aseprite using Guid(8a4dfb50d03afae42b946ac6ab474d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fe2953854b337e70d7313176164017') in 0.007772 seconds
+  Import took 0.011127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.995542 seconds.
+  path: Assets/Aseprite/Sprite-YouTube.aseprite
+  artifactKey: Guid(8a4dfb50d03afae42b946ac6ab474d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aseprite/Sprite-YouTube.aseprite using Guid(8a4dfb50d03afae42b946ac6ab474d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7ef6ceb3a28545933e93e99721d2d7') in 0.018245 seconds
+  Import took 0.021576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000622 seconds.
+  path: Assets/Aseprite/Sprite-YouTube.aseprite
+  artifactKey: Guid(8a4dfb50d03afae42b946ac6ab474d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aseprite/Sprite-YouTube.aseprite using Guid(8a4dfb50d03afae42b946ac6ab474d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7ef6ceb3a28545933e93e99721d2d7') in 0.016010 seconds
+  Import took 0.020701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.773234 seconds.
+  path: Assets/Aseprite/Sprite-GitHub.aseprite
+  artifactKey: Guid(e4bf5f0e9e44a15469c48a72f9bf42da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aseprite/Sprite-GitHub.aseprite using Guid(e4bf5f0e9e44a15469c48a72f9bf42da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0b545d8c211d8efcd519edb4d94a57') in 0.024813 seconds
+  Import took 0.031223 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000971 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.874 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1824 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2384.
+Total: 1.801900 ms (FindLiveObjects: 0.165400 ms CreateObjectMapping: 0.062000 ms MarkObjects: 1.470600 ms  DeleteObjects: 0.103100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006129 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.090 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1824 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2388.
+Total: 2.544100 ms (FindLiveObjects: 0.211600 ms CreateObjectMapping: 0.122300 ms MarkObjects: 2.090500 ms  DeleteObjects: 0.118700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001823 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.902 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1824 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2392.
+Total: 2.226300 ms (FindLiveObjects: 0.208100 ms CreateObjectMapping: 0.116600 ms MarkObjects: 1.793400 ms  DeleteObjects: 0.107300 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 54.1 MB.
+System memory in use after: 54.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2392.
+Total: 3.010300 ms (FindLiveObjects: 0.305600 ms CreateObjectMapping: 0.175700 ms MarkObjects: 2.406900 ms  DeleteObjects: 0.121100 ms)
+

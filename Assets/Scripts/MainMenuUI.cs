@@ -15,14 +15,8 @@ public class MainMenuUI : MonoBehaviour
   [SerializeField]
   private CanvasGroup hsCanvasGroup = null;
 
-  // Music by sawsquarenoise
-  [SerializeField]
-  private GameObject musicPlayer = null;
-
   public void StartGame()
   {
-    DontDestroyOnLoad(musicPlayer);
-
     SceneManager.LoadScene("Game");
   }
 
@@ -60,5 +54,10 @@ public class MainMenuUI : MonoBehaviour
     PlayerPrefs.SetFloat("hs3", 0.0f);
 
     SetHighScoreTexts();
+  }
+
+  public void OpenURL(string url)
+  {
+    Application.OpenURL(url);
   }
 }
