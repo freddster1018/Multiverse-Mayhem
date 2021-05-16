@@ -164,3 +164,48 @@ System memory in use after: 89.7 MB.
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2335.
 Total: 2.155200 ms (FindLiveObjects: 0.212000 ms CreateObjectMapping: 0.118600 ms MarkObjects: 1.720100 ms  DeleteObjects: 0.103500 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1630.864284 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e9cbfce7c9ab689f0ec11dbeab3e7b') in 0.016390 seconds
+  Import took 0.020811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.918748 seconds.
+  path: Assets/Aseprite/Sprite-Character.aseprite
+  artifactKey: Guid(86f91fcd2d35538418cdc950196aa206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aseprite/Sprite-Character.aseprite using Guid(86f91fcd2d35538418cdc950196aa206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38702aac19a0b1cb1b4bac46bf8471b3') in 0.083590 seconds
+  Import took 0.087196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.834338 seconds.
+  path: Assets/Sprites/Sprite-UIPanel/Sprite-UIPanel_sheet.png
+  artifactKey: Guid(541fc51f8eb22014b86e763ad5f092d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite-UIPanel/Sprite-UIPanel_sheet.png using Guid(541fc51f8eb22014b86e763ad5f092d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559b5ac3ea48758506c89348c6a80fe5') in 0.074235 seconds
+  Import took 0.077718 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000996 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.860 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2346.
+Total: 2.354500 ms (FindLiveObjects: 0.213700 ms CreateObjectMapping: 0.122000 ms MarkObjects: 1.913400 ms  DeleteObjects: 0.104400 ms)
+

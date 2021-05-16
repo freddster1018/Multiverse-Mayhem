@@ -55,8 +55,8 @@ public class Character : MonoBehaviour
 
     animator.SetTrigger("Slide");
 
-    collider.size = new Vector2(0.2252842f, 0.2245745f);
-    collider.offset = new Vector2(-0.03009415f, -0.04797687f);
+    collider.size = new Vector2(0.2239996f, 0.154541f);
+    collider.offset = new Vector2(-0.02992642f, -0.08432318f);
 
     yield return new WaitForSeconds(slideTime);
 
