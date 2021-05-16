@@ -75,6 +75,7 @@ public class Character : MonoBehaviour
     {
       Destroy(collision.gameObject);
       OnGameOver?.Invoke();
+      animator.SetTrigger("Die");
     }
     else if (collision.gameObject.tag.Equals("Floor") && !isSliding)
     {

@@ -375,7 +375,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 459465424}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.29, y: -0.07, z: 0}
+  m_LocalPosition: {x: 10.29, y: -2.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -393,6 +393,7 @@ GameObject:
   - component: {fileID: 494417798}
   - component: {fileID: 494417797}
   - component: {fileID: 494417800}
+  - component: {fileID: 494417801}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Floor
@@ -460,7 +461,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -512,6 +513,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &494417801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494417796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f64a7350110f7d45bd39ddc1175a588, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collider: {fileID: 494417800}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,7 +672,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 543506409}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -869,7 +883,7 @@ MonoBehaviour:
   rb: {fileID: 710123649}
   animator: {fileID: 710123650}
   collider: {fileID: 710123648}
-  jumpHeight: 170000
+  jumpHeight: 20000
   slideTime: 1
 --- !u!212 &710123646
 SpriteRenderer:
@@ -930,7 +944,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 710123644}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.66, y: -0.33, z: 0}
+  m_LocalPosition: {x: -5.66, y: -0.29, z: 0}
   m_LocalScale: {x: 18.089485, y: 18.089485, z: 18.089485}
   m_Children: []
   m_Father: {fileID: 0}
@@ -974,10 +988,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1.5
+  m_Mass: 0.5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2.5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -1026,7 +1040,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 871742029}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.29, y: 2.54, z: 0}
+  m_LocalPosition: {x: 10.29, y: 1.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1373,7 +1387,7 @@ MonoBehaviour:
   obstaclePrefabTop: {fileID: 3896681841107802380, guid: f09f0a34657f02c4f9394abdd487300c, type: 3}
   spawnLocationTop: {fileID: 871742029}
   spawnLocationBottom: {fileID: 459465424}
-  spawnInterval: 5000
+  spawnInterval: 3
   speed: 2.5
 --- !u!1 &1701661400
 GameObject:

@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
+using UnityEngine.UI;
 
 public class MainMenuUI : MonoBehaviour
 {
   [SerializeField]
-  private List<TMP_Text> hsTexts = new List<TMP_Text>();
+  private List<Text> hsTexts = new List<Text>();
 
   [SerializeField]
   private CanvasGroup menuCanvasGroup = null;
