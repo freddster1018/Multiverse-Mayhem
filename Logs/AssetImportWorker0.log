@@ -283,3 +283,27 @@ System memory in use after: 50.7 MB.
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2316.
 Total: 3.300700 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.122000 ms MarkObjects: 2.831900 ms  DeleteObjects: 0.119500 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 12084.369709 seconds.
+  path: Assets/Aseprite/Sprite-Logo.aseprite
+  artifactKey: Guid(52297f3fc25d33a4299d1b971c7e9923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aseprite/Sprite-Logo.aseprite using Guid(52297f3fc25d33a4299d1b971c7e9923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fecfa7abd12a5157982cd727bf3e062e') in 0.039971 seconds
+  Import took 0.045188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.979676 seconds.
+  path: Assets/Aseprite/Sprite-Logo.aseprite
+  artifactKey: Guid(52297f3fc25d33a4299d1b971c7e9923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aseprite/Sprite-Logo.aseprite using Guid(52297f3fc25d33a4299d1b971c7e9923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac6d38bf3120c4997a4891294d8dc30') in 0.010978 seconds
+  Import took 0.014440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.129446 seconds.
+  path: Assets/Aseprite/Sprite-Logo.aseprite
+  artifactKey: Guid(52297f3fc25d33a4299d1b971c7e9923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aseprite/Sprite-Logo.aseprite using Guid(52297f3fc25d33a4299d1b971c7e9923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ea6d85553358f6dbb394cdc9c8d09b') in 0.080201 seconds
+  Import took 0.084560 seconds .
+
