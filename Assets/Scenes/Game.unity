@@ -2094,6 +2094,9 @@ MonoBehaviour:
   bgSprites:
   - {fileID: -7466297807804127433, guid: 06d8359c0ab93ac4499712b91f29f68a, type: 3}
   - {fileID: -2577814496877903236, guid: da0f7043dea22994ebc78a76f3c80f4f, type: 3}
+  - {fileID: 6557329928653849704, guid: dfe7fb8880bb83b4fa9eb7500fa276f6, type: 3}
+  - {fileID: -5517569961437814386, guid: c8923b1a3e6600e4f9bfbf3004c1a7f5, type: 3}
+  - {fileID: -559645166367249762, guid: 8cae2db10f033e641b09bc545875db6b, type: 3}
   travelInterval: 10
   explosionSFX: {fileID: 799261455}
 --- !u!4 &1568282452
